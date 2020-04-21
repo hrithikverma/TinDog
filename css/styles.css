@@ -1,0 +1,155 @@
+body{
+  font-family: "Montserrat";
+}
+.title {
+  background-color: #ff4c68;
+}
+
+h1{
+  font-family: "Montserrat";
+   font-weight: bold;
+  font-size : 4rem;
+  line-height: 1.25;
+}
+.row{
+  margin-right: 0;
+}
+.navbar{
+  margin-bottom: 4rem;
+}
+/* tindog */
+.title-head{
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size : 3rem;
+}
+/* contact-pricing-download */
+.titlediv{
+  padding-bottom: 60px;
+}
+.title-anchor{
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.title-download{
+  margin : 10px;
+  margin-top: 30px;
+}
+.title-image{
+  margin-left: 4rem;
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+.imagediv{
+  padding-bottom: 20px;
+}
+/* features */
+#features{
+  padding: 80px;
+   position: relative;
+  background-color: #fff;
+}
+h3{
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+.features-p{
+  color : #8f8f8f;
+}
+.features-col{
+  text-align: center;
+  padding: 0 10% 0 10%;
+}
+.img1{
+  height: 60px;
+  width: 60px;
+  margin-bottom: 10px;
+}
+#testimonials{
+  background-color: #ff4c68;
+  text-align: center;
+}
+h2{
+  font-size: 2.75rem;
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 1.5;
+}
+.test-head{
+  color: #fff;
+}
+.test-content{
+  padding : 5% 20%;
+}
+.test-img{
+  text-align: center;
+  width:20%;
+  border-radius: 100%;
+   padding: 20px;
+}
+
+/* press section */
+
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 4%;
+}
+.press-img{
+  width:15%;
+}
+
+/* pricing section */
+
+.price-head{
+  font-size: 2.25rem;
+}
+#pricing{
+  padding : 4% 2%;
+}
+.price-tag{
+   text-align: center;
+   padding-bottom : 2%;
+}
+.price-tag-p{
+  font-size: 20px;
+}
+.price-col{
+  padding : 3%;
+  text-align: center;
+}
+
+/* end section */
+
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+}
+.end-h3{
+  padding-top : 2%;
+}
+.end-btn{
+  margin: 1% .5%;
+}
+#footer{
+  margin-top: 2%;
+  text-align: center;
+}
+.fab-a{
+  margin:5px;
+  color: black;
+}
+@media(max-width : 970px){
+  .title{
+    text-align: center;
+  }
+   .title-image{
+     position:static;
+     transform: rotate(0);
+   }
+
+}
